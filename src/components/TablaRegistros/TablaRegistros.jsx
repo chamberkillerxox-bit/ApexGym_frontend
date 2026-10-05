@@ -41,6 +41,7 @@ export function TablaRegistros({
                 columns={columns}
                 onEditar={onEditar}
                 onEliminar={onEliminar}
+                renderAcciones={renderAcciones}
                 enableSelection={false}
                 pageSizeOptions={pageSizeOptions}
                 entityLabel={entityLabel}
